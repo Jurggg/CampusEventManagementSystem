@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Events</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="topbar">
+
+        <div class="brand">
+            CAMPUS EVENTS
+        </div>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+            <a href="#events">Events</a>
+            <a href="#featured">Featured</a>
+            <a href="#registration">Register</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="menu-btn" aria-label="Open navigation">
+            Menu
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE SIDEBAR -->
+    <aside class="sidebar">
+
+        <nav aria-label="Mobile Navigation">
+            <a href="#events">Events</a>
+            <a href="#featured">Featured</a>
+            <a href="#registration">Register</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </aside>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-heading">
+                    DISCOVER WHAT'S HAPPENING
+                </p>
+
+                <h1>
+                    CAMPUS<br>
+                    EVENTS
+                </h1>
+
+                <p class="hero-text">
+                    Discover exciting events, workshops, activities,
+                    and experiences happening around campus.
+                    Find an event and be part of the community.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#events" class="btn primary-btn">
+                        Explore Events
+                    </a>
+
+                    <a href="#registration" class="btn secondary-btn">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image-container">
+
+                <img
+                    src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=85"
+                    alt="Students attending a campus event"
+                    class="hero-image"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- UPCOMING EVENTS -->
+        <section id="events" class="events-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    UPCOMING EVENTS
+                </h2>
+
+                <p>
+                    Find something exciting to join on campus.
+                </p>
+
+            </div>
+
+
+            <div class="event-grid">
+
+
+                <!-- EVENT 1 -->
+                <article class="event-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=80"
+                        alt="Students participating in a leadership event"
+                        class="event-image"
+                    >
+
+                    <div class="event-label">
+                        <h3>Student Leadership Summit</h3>
+
+                        <p>
+                            October 10, 2026
+                        </p>
+
+                        <p>
+                            University Hall
+                        </p>
+                    </div>
+
+                    <div class="event-info">
+
+                        <p>
+                            Learn leadership skills and connect
+                            with fellow student leaders.
+                        </p>
+
+                        <p class="capacity">
+                            100 seats available
+                        </p>
+
+                        <button
+                            class="btn register-btn"
+                            data-event="Student Leadership Summit"
+                        >
+                            Register
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENT 2 -->
+                <article class="event-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                        alt="Students working with computers during a technology workshop"
+                        class="event-image"
+                    >
+
+                    <div class="event-label">
+                        <h3>Technology Innovation Workshop</h3>
+
+                        <p>
+                            October 15, 2026
+                        </p>
+
+                        <p>
+                            IT Laboratory
+                        </p>
+                    </div>
+
+                    <div class="event-info">
+
+                        <p>
+                            Explore technology concepts and
+                            practical innovation activities.
+                        </p>
+
+                        <p class="capacity">
+                            60 seats available
+                        </p>
+
+                        <button
+                            class="btn register-btn"
+                            data-event="Technology Innovation Workshop"
+                        >
+                            Register
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENT 3 -->
+                <article class="event-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80"
+                        alt="Students attending a live music festival"
+                        class="event-image"
+                    >
+
+                    <div class="event-label">
+                        <h3>Campus Music Festival</h3>
+
+                        <p>
+                            October 20, 2026
+                        </p>
+
+                        <p>
+                            Open Grounds
+                        </p>
+                    </div>
+
+                    <div class="event-info">
+
+                        <p>
+                            Enjoy live performances and a fun
+                            campus-wide music celebration.
+                        </p>
+
+                        <p class="capacity">
+                            200 seats available
+                        </p>
+
+                        <button
+                            class="btn register-btn"
+                            data-event="Campus Music Festival"
+                        >
+                            Register
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENT 4 -->
+                <article class="event-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+                        alt="Players participating in a gaming tournament"
+                        class="event-image"
+                    >
+
+                    <div class="event-label">
+                        <h3>Inter-College Esports Tournament</h3>
+
+                        <p>
+                            October 25, 2026
+                        </p>
+
+                        <p>
+                            Student Center
+                        </p>
+                    </div>
+
+                    <div class="event-info">
+
+                        <p>
+                            Compete with other students in an
+                            exciting esports tournament.
+                        </p>
+
+                        <p class="capacity">
+                            80 seats available
+                        </p>
+
+                        <button
+                            class="btn register-btn"
+                            data-event="Inter-College Esports Tournament"
+                        >
+                            Register
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED SECTION -->
+        <section id="featured" class="featured-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    EXPERIENCE CAMPUS LIFE
+                </h2>
+
+                <p>
+                    Something for everyone, every time.
+                </p>
+
+            </div>
+
+
+            <div class="featured-grid">
+
+                <article class="featured-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+                        alt="Students studying and working together"
+                    >
+
+                    <div class="featured-overlay">
+                        <h3>CONNECT</h3>
+                        <p>Meet new people and build connections.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="featured-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80"
+                        alt="Students working together on a project"
+                    >
+
+                    <div class="featured-overlay">
+                        <h3>LEARN</h3>
+                        <p>Join workshops and develop new skills.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="featured-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80"
+                        alt="People attending a large event"
+                    >
+
+                    <div class="featured-overlay">
+                        <h3>ENJOY</h3>
+                        <p>Experience memorable campus activities.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- REGISTRATION -->
+        <section id="registration" class="registration-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    REGISTER FOR AN EVENT
+                </h2>
+
+                <p>
+                    Choose an event and reserve your place.
+                </p>
+
+            </div>
+
+
+            <form id="registrationForm" class="registration-form">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Student Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your student email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="event">
+                        Select Event
+                    </label>
+
+                    <select id="event" name="event" required>
+
+                        <option value="">
+                            Select an event
+                        </option>
+
+                        <option value="Student Leadership Summit">
+                            Student Leadership Summit
+                        </option>
+
+                        <option value="Technology Innovation Workshop">
+                            Technology Innovation Workshop
+                        </option>
+
+                        <option value="Campus Music Festival">
+                            Campus Music Festival
+                        </option>
+
+                        <option value="Inter-College Esports Tournament">
+                            Inter-College Esports Tournament
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button type="submit" class="btn submit-btn">
+                    Confirm Registration
+                </button>
+
+            </form>
+
+
+            <div
+                id="statusMessage"
+                class="status-message"
+                aria-live="polite"
+            ></div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
+
+            <div class="about-content">
+
+                <p class="small-heading">
+                    ABOUT CAMPUS EVENTS
+                </p>
+
+                <h2>
+                    FIND YOUR NEXT
+                    CAMPUS EXPERIENCE.
+                </h2>
+
+                <p>
+                    Campus Events makes it easier for students
+                    to discover upcoming activities and register
+                    for events happening around the university.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            2026 Campus Events Management System
+        </p>
+
+    </footer>
+
+
+    <script src="display.js"></script>
+
+</body>
+
+</html>
